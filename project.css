@@ -1,0 +1,63 @@
+*{
+    padding: o;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.hero-section{
+    background-image: url(https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=1500); 
+    background-size:cover ;
+    background-blend-mode: overlay;
+    background-color: rgb(0, 0,0 ,0.3);
+    position: relative;
+    height: 100vh;
+    text-align: center;
+}
+.hero-text{
+    color: white;
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.Book-button{
+    background-color: aqua;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top:10px ;
+    cursor: pointer;
+}
+.about-section{
+    float: left;
+    width: 100%;
+    align-items: center;
+}
+.about-us{
+    float: left;
+    width: 45%;
+    margin:10px 10px ;
+    text-align: center;
+}
+.amenities{
+    text-align: center;
+}
+.amenities ul{
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px ;
+}
+.about-section > h1{
+    text-align: center;
+    margin: 10px 0px;
+
+}
+.know-button{
+    background-color: rgb(91, 167, 167);
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top:10px ;
+    cursor: pointer;
+}
